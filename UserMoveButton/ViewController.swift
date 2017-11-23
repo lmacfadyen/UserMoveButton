@@ -86,17 +86,24 @@ class ViewController: UIViewController {
     //MARK: Slider setup and handling
     func setupSliderX()
     {
+        // Start with the width of the view that the button is in
         let viewBounds = viewButton.bounds.width
+        // Determine space for the button to move left and right
         let boundsSpace = viewBounds/2
+        // Get the button radius
         let buttonRadius = buttonGo.bounds.width/2
+        // Amount of slider range left or right is available space left or right, minus
+        // the button radius, since it can't go beyond the edge of the space
         let sliderRange = boundsSpace-buttonRadius
+        // Middle of slider will be 0, so set Min to be minus value of sliderRange
+        // and set Max to be positive value of slider range
         let sliderMin = -sliderRange
         let sliderMax = sliderRange
         
         sliderX.minimumValue = Float(sliderMin)
         sliderX.maximumValue = Float(sliderMax)
         
-        // set value user saved or to 0 for first run
+        // Get value already saved from defaults, or if first run, set to 0
         if let offsetX = UserDefaults.standard.object(forKey: buttonOffsetKeyX) as? CGFloat {
             sliderX.value = Float(offsetX)
             buttonXOffset.constant = offsetX
