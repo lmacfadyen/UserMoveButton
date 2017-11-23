@@ -12,6 +12,8 @@
 		110391991FC702F900904FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110391971FC702F900904FC1 /* Main.storyboard */; };
 		1103919B1FC702F900904FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1103919A1FC702F900904FC1 /* Assets.xcassets */; };
 		1103919E1FC702F900904FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1103919C1FC702F900904FC1 /* LaunchScreen.storyboard */; };
+		110391A61FC7039900904FC1 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110391A51FC7039900904FC1 /* RoundButton.swift */; };
+		110391A81FC705EC00904FC1 /* BackgroundBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 110391A71FC705EC00904FC1 /* BackgroundBlue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1103919A1FC702F900904FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1103919D1FC702F900904FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1103919F1FC702F900904FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110391A51FC7039900904FC1 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		110391A71FC705EC00904FC1 /* BackgroundBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundBlue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		110391921FC702F900904FC1 /* UserMoveButton */ = {
 			isa = PBXGroup;
 			children = (
+				110391A71FC705EC00904FC1 /* BackgroundBlue.png */,
+				110391A51FC7039900904FC1 /* RoundButton.swift */,
 				110391931FC702F900904FC1 /* AppDelegate.swift */,
 				110391951FC702F900904FC1 /* ViewController.swift */,
 				110391971FC702F900904FC1 /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1103919E1FC702F900904FC1 /* LaunchScreen.storyboard in Resources */,
+				110391A81FC705EC00904FC1 /* BackgroundBlue.png in Resources */,
 				1103919B1FC702F900904FC1 /* Assets.xcassets in Resources */,
 				110391991FC702F900904FC1 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110391A61FC7039900904FC1 /* RoundButton.swift in Sources */,
 				110391961FC702F900904FC1 /* ViewController.swift in Sources */,
 				110391941FC702F900904FC1 /* AppDelegate.swift in Sources */,
 			);
